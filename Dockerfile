@@ -22,4 +22,5 @@ RUN rm -f /usr/share/sangfor/EasyConnect/resources/conf/easy_connect.json && \
 
 VOLUME /root/ /usr/share/sangfor/EasyConnect/resources/logs/
 
+USER root
 CMD ["start.sh"]
